@@ -10,7 +10,7 @@ INSERT INTO users VALUES (1, "James", "21");
 INSERT INTO users VALUES (2, "John", "36");
 INSERT INTO users VALUES(3, "Mary", "23");
 
-CREATE TABLE pledges (id INTEGER PRIMARY KEY, amount INTEGER, user_id INTEGER, product_id INTEGER);
+CREATE TABLE pledges (id INTEGER PRIMARY KEY, amount INTEGER, user_id INTEGER, project_id INTEGER);
  
 INSERT INTO pledges VALUES (1, 7, 1, 1);
 INSERT INTO pledges VALUES (2, 14, 2, 2);
