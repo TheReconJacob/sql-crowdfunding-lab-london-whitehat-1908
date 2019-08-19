@@ -1,4 +1,4 @@
-CREATE TABLE projects (id INTEGER PRIMARY KEY, title TEXT, category TEXT, funding_goal TEXT, start_date TEXT);
+CREATE TABLE projects (id INTEGER PRIMARY KEY, title TEXT, category TEXT, funding_goal TEXT, start_date TEXT, end_date TEXT);
  
 INSERT INTO projects VALUES (1, "Mr", "bleh", "£10", "2/10/18");
 INSERT INTO projects VALUES (2, "Mr", "bleh2", "£20", "3/8/17");
